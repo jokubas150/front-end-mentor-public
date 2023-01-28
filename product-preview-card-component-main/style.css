@@ -1,0 +1,118 @@
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+}
+
+.left-column {
+    width: 50%;
+    max-height: 100%;
+}
+
+.right-column {
+    width: 50%;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section .left-column img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+section {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 15px;
+    max-height: 100%;
+    height: 100%;
+}
+
+
+/* TEXT */
+.text {
+    padding-left: 1.8em;
+    padding-right: 4.4em;
+}
+
+.text h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 6%, 56%);
+}
+
+.text h1 {
+    font-size: 2.5em;
+    font-family: 'Fraunces', serif;
+    color: hsl(0, 0%, 0%);
+    
+}
+
+.text p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(0, 6%, 56%);
+    font-size: 1.1em;
+}
+
+section .price {
+    clear: both;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    align-items: center;
+    gap: 2em;
+    padding-top: 1em;
+    padding-left: 1.8em;
+    padding-right: 4.4em;
+    padding-bottom: 0.1em;
+}
+
+.price h2 {
+    color:hsl(130, 85%, 19%);
+    font-family: 'Fraunces', serif;
+    font-size: 2.5em;
+}
+
+.price del {
+    color:hsl(0, 6%, 56%);
+    font-family: 'Fraunces', serif;
+    font-size: 0.9em;
+}
+
+.right-column .btn {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:hsl(156, 79%, 32%);
+    color: hsl(0, 0%, 100%);
+    width: 85%;
+    padding: 0.8em;
+    margin-left: 1.8em;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+    display: flex;
+}
+
+.right-column .btn:hover{
+    background-color: hsl(130, 37%, 35%);
+}
+
+.btn img{
+    padding-right: .5em;
+}
+
+
+@media screen and (max-width: 600px) {
+    section {
+      width: 900px;
+      margin: 0 auto;
+    }
+}
